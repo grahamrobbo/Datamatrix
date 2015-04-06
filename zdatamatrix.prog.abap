@@ -15,7 +15,7 @@ FORM run.
   DATA: lv_name    TYPE rs38l_fnam,
         ls_control TYPE ssfctrlop.
 
-"Test Comment
+"Test Comment - changed using text editor
   CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     EXPORTING
       formname           = 'ZDATAMATRIX'
